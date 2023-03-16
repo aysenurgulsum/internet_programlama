@@ -1,0 +1,2 @@
+### `height` özelliği `%` değer verdiğimizde çalışmıyor, `px` değer verdiğimizde çalışıyor. Neden?
+Sayfalar hep yukarıdan aşağıya yönde olacak şekilde kayarak ilerler. Sayfanın `width` değeri tarayıcı ekran boyutuna eşit olduğundan sabittir. Sayfanın yüksekliği ile ilgili bir veri olmadığından belirli bir sınır yoktur. Sınır olmadığı için `%`'sel değer girilemez.
